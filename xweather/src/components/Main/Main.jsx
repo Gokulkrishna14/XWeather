@@ -46,23 +46,23 @@ export default function Main(){
             </form>
             {loading && <p>Loading data...</p>}
             {weatherData && (
-                <div className="weatherBox">
-                    <div className="weather-cards">
+                <div className="weather-cards">
+                    <div className="weather-card">
                         <h2>Temperature</h2>
                         <span>{weatherData.temperature}</span>
                     </div>
 
-                    <div className="weather-cards">
+                    <div className="weather-card">
                         <h2>Humidity</h2>
                         <span>{weatherData.humidity}</span>
                     </div>
 
-                    <div className="weather-cards">
+                    <div className="weather-card">
                         <h2>Condition</h2>
                         <span>{weatherData.condition}</span>
                     </div>
 
-                    <div className="weather-cards">
+                    <div className="weather-card">
                         <h2>Wind speed</h2>
                         <span>{weatherData.windSpeed}</span>
                     </div>
